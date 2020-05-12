@@ -184,7 +184,7 @@ def main():
             while select_data not in ['ts', 'ss', 'tds','us','rd','rs']:
                 select_data = input("\nPlease enter a valid input from the below.\n\n [ts]  Time Stats\n [ss] "
                                  " Station Stats\n [tds] Trip Duration Stats\n "
-                                 "[us]  User Stats\n"
+                                 " [us]  User Stats\n"
                                  " [rd]  View Raw_Data\n"
                                  " [rs]  Restart or exit"
                                  "\n\nPlease enter your value here:") 
