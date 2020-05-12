@@ -141,7 +141,7 @@ def user_stats(df, city):
         print(df['Gender'].value_counts())
 
 
-        # Display earliest birth year , most recent, and most common year of birth
+        # Display earliest birth year, most recent, and most common year of birth
         print("The earliest birth year is: {}".format(str(int(df['Birth Year'].min()))))
         print("The latest birth year is: {}".format(str(int(df['Birth Year'].max()))))
         print("The most common birth year is: {}".format(str(int(df['Birth Year'].mode().values[0]))))
@@ -153,7 +153,7 @@ def raw_data(df):
     """
     Iterate through 5 entries at a time.
     Returns:
-        Print five row entries of data to terminal
+        Print five row entries of data to terminal and ask the user for if the user wishes to see 5 more entries
     """
 
     show_more = 'yes'
@@ -184,7 +184,7 @@ def main():
             while select_data not in ['ts', 'ss', 'tds','us','rd','rs']:
                 select_data = input("\nPlease enter a valid input from the below.\n\n [ts]  Time Stats\n [ss] "
                                  " Station Stats\n [tds] Trip Duration Stats\n "
-                                 "[us]  User Stats\n"
+                                 " [us]  User Stats\n"
                                  " [rd]  View Raw_Data\n"
                                  " [rs]  Restart or exit"
                                  "\n\nPlease enter your value here:") 
