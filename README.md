@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+Created on 10-05-2020 at 6:30PM IST
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+It is an Interactive environment where a user chooses the data and filter for a data set to analyze th US Bikeshare Data.
 
 ### Files used
-Include the files used
+chicago.csv,new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The Basic Templete provided is very helpful in order to build your own interactive Project.
+Links:https://github.com/xhlow/udacity-bikeshare-project,https://github.com/synflyn28/udacity-bikeshare,https://gist.github.com/Amanansh/e3043227e9a764817b79925d5e82b5bc
+
 
