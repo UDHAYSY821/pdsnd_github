@@ -151,16 +151,16 @@ def user_stats(df, city):
 
 def raw_data(df):
     """
-    Iterate through 5 entries at a time.
+    Iterate through 6 entries at a time.
     Returns:
-        Print five row entries of data to terminal and ask the user for if the user wishes to see 5 more entries
+        Print five row entries of data to terminal and ask the user for if the user wishes to see 6 more entries
     """
 
     show_more = 'yes'
     while show_more == 'yes':
         for i in df.iterrows():
             count = 0
-            while count < 5:
+            while count < 6:
                 print(i)
                 count += 1
             response = input('\nView 5 more data entries? Yes or No?\n')
