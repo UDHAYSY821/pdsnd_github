@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Craeted on 10-05-2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+It is an Interactive environment where a user chooses the data and filter for a data set to analyze th US Bikeshare Data.
 
 ### Files used
-Include the files used
+chicago.csv,new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Th Basic Templete provided is very helpful in order to build your own interactive Project.
 
