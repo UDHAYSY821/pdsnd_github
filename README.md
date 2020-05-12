@@ -5,7 +5,7 @@ Created on 10-05-2020 at 6:30PM IST
 Exploring the US Bikeshare Data
 
 ### Description
-It is an Interactive environment where a user chooses the data and filter for a data set to analyze th US Bikeshare Data.
+It is an Interactive environment where a user chooses the data and filter for a data set to analyze th US Bikeshare Data.It is my first attempt to build the user interactive platform hope you like it.
 
 ### Files used
 chicago.csv,new_york_city.csv, washington.csv
