@@ -153,7 +153,7 @@ def raw_data(df):
     """
     Iterate through 5 entries at a time.
     Returns:
-        Print five row entries of data to terminal
+        Print five row entries of data to terminal and ask the user for if the user wishes to see more entries
     """
 
     show_more = 'yes'
