@@ -25,7 +25,7 @@ def get_filters():
     while day not in ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday" , "sunday", "all"): 
         day = input("Please Enter Valid day of week: ").lower()
     print('-'*50)
-    print("Loading Please wait.........")
+    print("Loading your request Please wait.........")
     return city, month, day
 
 
